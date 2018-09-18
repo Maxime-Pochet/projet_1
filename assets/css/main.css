@@ -5,7 +5,7 @@ body {
 .container {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns:repeat(auto-fill, minmax(400px,1fr)); 
+    grid-template-columns:repeat(auto-fill, minmax(400px,1fr));
 }
 
 .box {
@@ -28,7 +28,7 @@ body {
 }
 
 
-img{
+img:not(.toto){
     width: 100%;
     border-radius: 0px 10px 0px 10px;
     height: auto;

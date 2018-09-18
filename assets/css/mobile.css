@@ -6,7 +6,7 @@ Le concept mobile first consiste à concevoir un site en concevant en priorité 
     display: grid;
     grid-gap: 20px;
     grid-template-columns:repeat(auto-fill, minmax(400px,1fr));
-    
+
 }
 
 body{
@@ -34,7 +34,7 @@ body{
     color: #a89379;
 }
 
-img{
+img:not(.toto){
     width: 100%;
     border-radius: 0px 10px 0px 10px;
     height: auto;
@@ -54,4 +54,21 @@ i{
 
 hr{
     border: 0.5px solid #e8dac7;
+}
+
+/* Design footer par stephane 0664612881*/
+
+.toto {
+    border-radius: 50%;
+    width: 200px;
+    float: left;
+    shape-outside: circle();
+    margin-right: 2em;
+}
+
+footer {
+    margin: auto;
+    border: 2px solid seagreen;
+    width: 500px;
+    height: 200px;
 }
