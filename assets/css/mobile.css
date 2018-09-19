@@ -11,6 +11,7 @@ Le concept mobile first consiste à concevoir un site en concevant en priorité 
 
 body{
     background-color: #a89379;
+   height: 7000px;
 }
 
 .box {
@@ -60,15 +61,70 @@ hr{
 
 .toto {
     border-radius: 50%;
-    width: 200px;
-    float: left;
-    shape-outside: circle();
-    margin-right: 2em;
+    width: 40%;
+    box-shadow: 17px 19px 8px rgba(0, 0, 0, 0.5);
+
+
+
 }
 
 footer {
-    margin: auto;
-    border: 2px solid seagreen;
-    width: 500px;
-    height: 200px;
+    background-color: #614F3F;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 80px;
+}
+
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 17px 19px 8px rgba(0, 0, 0, 0.5);
+
+}
+.content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.marronlight {
+    color: #C5AC95;
+}
+
+.content > H4 {
+    color:#CDC3B1;
+}
+
+#contacte {
+    margin-top: 80px;
+
+}
+
+input {
+    height: 56px;
+    width: 400px;  ;
+}
+
+textarea {
+    width: 400px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.envoyer {
+   margin-top: 40px;
+    padding: 20px;
+    background-color:#614F3F ;
+    border: none;
+    color: white;
+    border-radius: 5px;
 }
