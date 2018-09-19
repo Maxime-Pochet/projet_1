@@ -6,11 +6,12 @@ Le concept mobile first consiste à concevoir un site en concevant en priorité 
     display: grid;
     grid-gap: 20px;
     grid-template-columns:repeat(auto-fill, minmax(400px,1fr));
-    
+
 }
 
 body{
     background-color: #a89379;
+   height: 7000px;
 }
 
 /*Navbarre*/
@@ -106,7 +107,7 @@ nav ul li a:hover {
     color: #a89379;
 }
 
-img{
+img:not(.toto){
     width: 100%;
     border-radius: 0px 10px 0px 10px;
     height: auto;
@@ -126,4 +127,76 @@ i{
 
 hr{
     border: 0.5px solid #e8dac7;
+}
+
+/* Design footer par stephane 0664612881*/
+
+.toto {
+    border-radius: 50%;
+    width: 40%;
+    box-shadow: 17px 19px 8px rgba(0, 0, 0, 0.5);
+
+
+
+}
+
+footer {
+    background-color: #614F3F;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 80px;
+}
+
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 17px 19px 8px rgba(0, 0, 0, 0.5);
+
+}
+.content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.marronlight {
+    color: #C5AC95;
+}
+
+.content > H4 {
+    color:#CDC3B1;
+}
+
+#contacte {
+    margin-top: 80px;
+
+}
+
+input {
+    height: 56px;
+    width: 400px;  ;
+}
+
+textarea {
+    width: 400px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.envoyer {
+   margin-top: 40px;
+    padding: 20px;
+    background-color:#614F3F ;
+    border: none;
+    color: white;
+    border-radius: 5px;
 }
