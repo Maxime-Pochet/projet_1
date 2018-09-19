@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Londrina+Sketch");
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
 body {
     background-color:   #e8dac7 ;
 }
@@ -5,8 +9,80 @@ body {
 .container {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns:repeat(auto-fill, minmax(400px,1fr)); 
+    grid-template-columns:repeat(auto-fill, minmax(400px,1fr));
 }
+
+/*navbarre*/
+
+
+/*GENERAL*/
+  
+  body {
+    background-color: #CDC3B1;
+    color: #614F3F;
+    padding: 0;
+    margin: 0;
+  }
+
+  /*HAUT DE PAGE*/
+    
+    header{
+      display: block;
+      width: 1200px;
+      margin: 0 auto ;
+      padding: 10px 0;
+    }
+
+    h1{
+      text-align: center;
+      padding: 30px 0 30px 0;
+      font-family: Londrina Sketch;
+      font-size: 70px;
+    }
+
+    /*MENU*/
+
+      nav{
+	    display: block;
+        padding: 20px 0;
+        border-bottom: 1px solid;
+        border-top: 1px solid;
+        width: 1200px;
+        margin: 0 auto;
+			}
+
+			nav ul {
+				display: block;
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				text-align: center;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			nav ul li {
+				display:inline-block;
+				padding: 0 20px;
+			}
+
+			nav ul li a {
+				display: block;
+                font-family: Raleway;
+				color: #614F3F;
+				text-align: center;
+				font-size: 15px;
+				border-bottom: 2px solid transparent;
+				text-decoration: none;
+			}
+
+			nav ul li a:hover {
+                color: #614F3F;
+                font-weight: bold;
+                text-decoration-style: none;
+			}
+
+/*finnavbarre*/            
 
 .box {
     display: grid;
@@ -28,7 +104,7 @@ body {
 }
 
 
-img{
+img:not(.toto){
     width: 100%;
     border-radius: 0px 10px 0px 10px;
     height: auto;
