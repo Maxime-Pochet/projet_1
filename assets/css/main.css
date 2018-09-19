@@ -139,3 +139,14 @@ hr{
 i{
     color:  #e8dac7;
 }
+
+/*taille carrousel*/
+
+.carousel-item {
+   object-fit: cover;
+}
+
+.fixcarrous {
+    margin: 0px;
+    padding: 0px;
+}
