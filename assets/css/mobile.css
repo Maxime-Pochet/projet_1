@@ -1,0 +1,218 @@
+/* Mobile first
+
+Le concept mobile first consiste à concevoir un site en concevant en priorité la version mobile et en adaptant progressivement celui-ci pour les écrans plus large. */
+
+.container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns:repeat(auto-fill, minmax(400px,1fr));
+
+}
+
+body{
+    background-color: #a89379;
+}
+
+/*Navbarre*/
+
+@import url("https://fonts.googleapis.com/css?family=Londrina+Sketch");
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+/*GENERAL*/
+
+body {
+background-color: #CDC3B1;
+color: #614F3F;
+padding: 0;
+margin: 0;
+}
+
+/*HAUT DE PAGE*/
+
+header{
+width: 100%;
+}	nav ul li a {
+display: block;
+font-family: Raleway;
+color: #614F3F;
+text-align: center;
+font-size: 15px;
+border-bottom: 2px solid transparent;
+text-decoration: none;
+}
+
+h1{
+margin-top: 4px;
+text-align: center;
+padding: 30px 0 30px 0;
+font-family: Londrina Sketch;
+font-size: 70px;
+font-weight: bold;
+}
+
+/*MENU*/
+
+nav{
+width: 100%;
+border-top: 1px solid;
+}
+
+nav ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+
+nav ul li a {
+    display: block;
+    font-family: Raleway;
+    color: #614F3F;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #614F3F;
+    font-weight: bold;
+    text-decoration-style: none;
+}
+
+
+
+/*Fin Navbarre*/
+
+.box {
+    display: grid;
+    grid-gap: 20px;
+    grid-column: 1 / 1;
+    margin-right: 10%;
+    margin-left: 10%;
+    object-fit: cover;
+    background-color: #e8dac7;
+}
+
+.boxtext {
+    display: grid;
+    grid-column: 1 / 1;
+    margin-top : 5%;
+    text-align: justify;
+}
+
+.heure{
+    color: #a89379;
+}
+
+img:not(.toto){
+    width: 100%;
+    border-radius: 0px 10px 0px 10px;
+    height: auto;
+    box-shadow: 0px 5px 20px black;
+}
+
+.icons_art{
+    color:  #a89379 ;
+}
+
+#fil_actu{
+    text-align: center;
+    margin-bottom: 5%;
+    color: #e8dac7;
+    text-decoration: underline;
+}
+
+hr{
+    border: 0.5px solid #e8dac7;
+}
+
+/* Design footer par stephane 0664612881*/
+
+.toto {
+    border-radius: 50%;
+    width: 40%;
+    box-shadow: 17px 19px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+
+
+
+}
+
+footer {
+    background-color: #614F3F;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 80px;
+}
+
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.marronlight {
+    color: #C5AC95;
+}
+
+.content > H4 {
+    color:#CDC3B1;
+}
+
+#contacte {
+    margin-top: 80px;
+
+}
+
+input {
+    height: 56px;
+    width: 400px;  ;
+}
+
+textarea {
+    width: 400px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.envoyer {
+   margin-top: 40px;
+    padding: 20px;
+    background-color:#614F3F ;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.foot {
+    display: grid;
+    grid-template-columns: 1fr;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.icons{
+    color:  #614F3F ;
+}
+
+.lastfoot {
+    display: flex;
+    justify-content: center;
+    font-size: 0.7em;
+}
