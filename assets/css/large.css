@@ -16,60 +16,60 @@ body {
 
   /*HAUT DE PAGE*/
     
-    header{
-      display: block;
-      width: 1200px;
-      margin: 0 auto ;
-      padding: 10px 0;
+header{
+    display: block;
+    width: 1200px;
+    margin: 0 auto ;
+    padding: 10px 0;
+}
+
+h1{
+    text-align: center;
+    padding: 30px 0 30px 0;
+    font-family: Londrina Sketch;
+    font-size: 70px;
+}
+
+/*MENU*/
+
+nav{
+    display: block;
+    padding: 20px 0;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    width: 1200px;
+    margin: 0 auto;
     }
 
-    h1{
-      text-align: center;
-      padding: 30px 0 30px 0;
-      font-family: Londrina Sketch;
-      font-size: 70px;
-    }
+nav ul {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-    /*MENU*/
+nav ul li {
+    display:inline-block;
+    padding: 0 20px;
+}
 
-      nav{
-	    display: block;
-        padding: 20px 0;
-        border-bottom: 1px solid;
-        border-top: 1px solid;
-        width: 1200px;
-        margin: 0 auto;
-			}
+nav ul li a {
+    display: block;
+    font-family: Raleway;
+    color: #614F3F;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+}
 
-			nav ul {
-				display: block;
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-				text-align: center;
-				margin-left: auto;
-				margin-right: auto;
-			}
-
-			nav ul li {
-				display:inline-block;
-				padding: 0 20px;
-			}
-
-			nav ul li a {
-				display: block;
-                font-family: Raleway;
-				color: #614F3F;
-				text-align: center;
-				font-size: 15px;
-				border-bottom: 2px solid transparent;
-				text-decoration: none;
-			}
-
-			nav ul li a:hover {
-                color: #614F3F;
-                font-weight: bold;
-                text-decoration-style: none;
+nav ul li a:hover {
+    color: #614F3F;
+    font-weight: bold;
+    text-decoration-style: none;
 			}
 
 /*finnavbarre*/            
@@ -120,7 +120,7 @@ hr{
     color: #e8dac7;
 }
 
-i{
+.icons_art{
     color:  #e8dac7 ;
 }
 
