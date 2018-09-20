@@ -113,7 +113,7 @@ img:not(.toto){
     box-shadow: 0px 5px 20px black;
 }
 
-i{
+.icons_art{
     color:  #a89379 ;
 }
 
@@ -198,10 +198,21 @@ textarea {
     border: none;
     color: white;
     border-radius: 5px;
+    margin-bottom: 50px;
 }
 
 .foot {
     display: grid;
     grid-template-columns: 1fr;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.icons{
+    color:  #614F3F ;
+}
+
+.lastfoot {
+    display: flex;
+    justify-content: center;
+    font-size: 0.7em;
 }
