@@ -1,4 +1,3 @@
 # projet_1
 
-
-Blog de Wildo présentant une journée type dans le cartier du Panier a Marseille.
+Wildo's blog present a day in Marseille, in the quarter of Le Panier.
